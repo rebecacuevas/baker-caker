@@ -219,3 +219,58 @@ header {
   display: block;
   margin-left: auto;
 }
+
+/* Dashboard */
+
+.dashboard-cake-item {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  filter: drop-shadow(1px 1px 1px gray);
+  width: 200px;
+  height: 280px;
+}
+
+.dashboard-decoration-item {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  filter: drop-shadow(1px 1px 1px gray);
+  width: 200px;
+  height: 350px;
+}
+
+.dashboard-label {
+  font-weight: 700;
+}
+
+.dashboard-input {
+  margin-bottom: 10px;
+  border: 2px solid #ff5d8f;
+  border-radius: 5px;
+  width: 140px;
+  text-align: center;
+}
+
+.btn-dashboard {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Mis pedidos */
+
+table {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+th {
+  padding: 0 70px;
+  border: 1px solid black;
+}
+
+td {
+  padding: 70px;
+  border: 1px solid black;
+}
