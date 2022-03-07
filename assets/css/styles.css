@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navbar */
+header {
+  background-color: #ff5d8f;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+}
+
+.li-item {
+  display: inline-block;
+  padding: 30px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* First page - Index */
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landing-heading {
+  margin-top: 280px;
+  font-size: 100px;
+}
+
+.landing-image {
+  margin-top: 30px;
+}
+
+/* Catáogo - Index */
+
+.pink-headings {
+  color: #ff5d8f;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.cake-index {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  filter: drop-shadow(1px 1px 1px gray);
+  width: 200px;
+  height: 250px;
+}
+
+.cake-flavour,
+.decoration-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.item-price {
+  font-weight: 700;
+}
+
+.vela-tobogan {
+  height: 100px;
+}
+
+.decoration-index {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  filter: drop-shadow(1px 1px 1px gray);
+  width: 200px;
+  height: 300px;
+}
+
+.pink-btn {
+  background-color: #ff5d8f;
+  font-weight: 700;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btn-cta-index {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Footer */
+.footer {
+  background-color: #ff5d8f;
+  color: white;
+  height: 250px;
+}
+
+.footer-column {
+  width: 280px;
+  margin-top: 50px;
+  padding-left: 70px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
